@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "barcode-reader"
+version = "0.1.0"
+description = "Barcode reader for ID cards"
+authors = ["Lama Alosaimi"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Pillow = "^9.5.0"
+pyzbar = "^0.1.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
